@@ -25,7 +25,7 @@ namespace tic_toc
                 return "X";
         }
 
-        string CheckWin()
+        string CheckWin() //функция проверки победы
         {
             if (button1.Text != "" && button1.Text == button2.Text && button1.Text == button3.Text)
                 return button1.Text;
